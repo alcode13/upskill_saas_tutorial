@@ -17,6 +17,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
 /*Comment can be done using this if it is CSS. Incase of scss, call insert a comment by '//' - self closing tag.*/
 
 //Typograpghy style
@@ -41,6 +44,8 @@ h1, h2, h3 {
   color: white;
 }
 
+//Can combine different classes to apply a single style, along with the :hover action - as done below. 
+//This can be done since we are using sass. In Plain CSS, the hover combination cannot be done. Need to write the code seperately.
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover { color:white; opacity:0.75;}
